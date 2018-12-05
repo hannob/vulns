@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 720">
+  <defs>
+    <g id="c" fill="white" stroke="#d00" stroke-width="30" style="stroke-linecap: round; stroke-linejoin: round;">
+
+      <path d="M 200 -40 l 100 30 v 20 l -100 30" />
+      <path d="M 300 10 h 90 l -30 -20 h -60" stroke-width="0" fill="#d00" style="stroke-linecap: butt;" />
+
+      <path d="M 200 -40 l 100 30 v 20 l -100 30" />
+
+      <path d="M -200 -40 h -80 l -50 10 v 60 l 50 10 h 80" />
+      <path d="M -330 -70 v  140" />
+
+      <path d="M -200 -90 v 180" />
+
+      <rect x="-200" y="-60" width="400" height="120" />
+    </g>
+  </defs>
+
+  <use x="-360" y="360" xlink:href="#c" transform="scale(-1 1) rotate(45 -360 360)"/>
+  <g transform="rotate(45 360 360)">
+    <use x="360" y="360" xlink:href="#c"/>
+    <text fill="#d00" stroke="#d00" stroke-width="8" style="font-family: sans-serif; stroke-linecap: round; stroke-linejoin: round;" dy="0.35em" x="360" y="360" font-size="80" text-anchor="middle">C C S</text>
+  </g>
+
+</svg>
