@@ -26,7 +26,7 @@ Have vulnerabilities been used in real world attacks?
 | <img src="logo/sweet32.svg" height="50"> | [Sweet32](https://sweet32.info/) | 2016 | TLS/3DES | Block collissions in 64 bit block ciphers | No | - |
 | <img src="logo/dirtycow.svg" height="50"> | [Dirty COW](https://dirtycow.ninja/) | 2016 | Linux Kernel | Race condition leading to local root exploit | Yes | [ZDNet/Drupalgeddon2/DirtyCOW attacks](https://www.zdnet.com/article/hackers-use-drupalgeddon-2-and-dirty-cow-exploits-to-take-over-web-servers/) [TrendMicro/ZNIU Android Malware](https://blog.trendmicro.com/trendlabs-security-intelligence/zniu-first-android-malware-exploit-dirty-cow-vulnerability/) |
 | <img src="logo/krack.png" height="50"> | [KRACK](https://www.krackattacks.com/) | 2017 | WPA2 | Nonce reuse in wireless encryption | No | - |
-| <img src="logo/dukh.svg" height="50"> | [DUHK](https://duhkattack.com/) | 2017 | FortiOS | Hardcoded key in FIPS-certified X9.31 RNG | No | - |
+| <img src="logo/duhk.svg" height="50"> | [DUHK](https://duhkattack.com/) | 2017 | FortiOS | Hardcoded key in FIPS-certified X9.31 RNG | No | - |
 | <img src="logo/robot.svg" height="50"> | [ROBOT](https://robotattack.org/) | 2017 | TLS | Lack of Bleichenbacher attack countermeasures | No | - |
 | <img src="logo/meltdown.svg" height="50"> | [Meltdown](https://meltdownattack.com/) | 2018 | CPU/OS | Speculative execution sidechannel attacking root/user barrier | No | - |
 | <img src="logo/spectre.svg" height="50" width="63"> | [Spectre](https://spectreattack.com/) | 2018 | CPU/OS | Speculative execution sidechannel attacking program flow | No | - |
