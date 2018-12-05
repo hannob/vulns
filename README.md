@@ -17,7 +17,7 @@ Have vulnerabilities been used in real world attacks?
 | - | [FREAK](https://www.freakattack.com/) | 2015 | TLS | Downgrade to export ciphers | No | - |
 | - | [Superfish](https://en.wikipedia.org/wiki/Superfish) | 2015 | Lenovo laptops | Bundled software with shared root certificate | No | - |
 | - | [Rowhammer](https://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html) | 2015 | DRAM | Bitflips in RAM modules | No | - |
-| - | [Logjam](https://weakdh.org/) | 2015 | TLS | Weak diffie hellman parameters | No* | Speculation this may've been exploited by the NSA |
+| - | [Logjam](https://weakdh.org/) | 2015 | TLS | Weak diffie hellman parameters | No* | Hand-wavy Speculation this may've been exploited by NSA - no scientific backup to that claim, this section of the paper was highly citicized and even co-authors admit that it's unlikely. From an HPC standpoint: it would need the collaboration of multiple top-500 supercomputers, which is impossible for classified research to go unnoticed. Special cryptanalysis facilities able to break specific parts of (weakened) cryptographic systems exist of course.  |
 | - | [Stagefright](https://en.wikipedia.org/wiki/Stagefright_(bug)) | 2015 | Stagefright/Android | Memory corruption in media parsers | No | - |
 | <img src="logo/drown.svg" height="50"> | [DROWN](https://drownattack.com/) | 2016 | TLS/SSLv2 | Bleichenbacher attack using SSLv2 | No | - |
 | <img src="logo/badlock.svg" height="50"> | [Badlock](https://web.archive.org/web/20170608065927/http://badlock.org/) | 2016 | Samba/SMB | Various man in the middle attacks | No | - |
