@@ -13,6 +13,7 @@ Have vulnerabilities been used in real world attacks?
 | <img src="logo/shellshock.svg" height="50"> | [Shellshock](https://en.wikipedia.org/wiki/Shellshock_(software_bug)) | 2014 | Bash | Remote code execution via variables | Yes | [Cloudflare/Exploits](https://blog.cloudflare.com/inside-shellshock/) |
 | - | [Drupalgeddon](https://www.drupal.org/forum/newsletters/security-advisories-for-drupal-core/2014-10-15/sa-core-2014-005-drupal-core-sql) | 2014 | Drupal | SQL Injection leading to RCE | Yes | [Drupal/Automated attacks after 7h](https://www.drupal.org/forum/newsletters/security-public-service-announcements/2014-10-29/drupal-core-highly-critical) |
 | - | [POODLE](https://www.openssl.org/~bodo/ssl-poodle.pdf) | 2014 | SSLv3 | Padding oracle with downgrade attack | No | - |
+| - | [goto fail](https://www.imperialviolet.org/2014/02/22/applebug.html) | 2014 | Apple iOS | Typo in source code disabling TLS certificate verification | No | - |
 | - | [GHOST](https://blog.qualys.com/laws-of-vulnerabilities/2015/01/27/the-ghost-vulnerability) | 2015 | Glibc | Buffer overflow via DNS | No | - |
 | - | [FREAK](https://www.freakattack.com/) | 2015 | TLS | Downgrade to export ciphers | No | - |
 | - | [Superfish](https://en.wikipedia.org/wiki/Superfish) | 2015 | Lenovo laptops | Bundled software with shared root certificate | No | - |
