@@ -32,6 +32,7 @@ Have vulnerabilities been used in real world attacks?
 | <img src="logo/spectre.svg" height="50" width="63"> | [Spectre](https://spectreattack.com/) | 2018 | CPU/OS | Speculative execution sidechannel attacking program flow | No | - |
 | - | [Drupalgeddon 2](https://www.drupal.org/sa-core-2018-002) | 2018 | Drupal | Remote code execution | Yes | [ZDNet/Drupalgeddon2/DirtyCOW attacks](https://www.zdnet.com/article/hackers-use-drupalgeddon-2-and-dirty-cow-exploits-to-take-over-web-servers/) |
 | <img src="logo/efail.svg" height="50"> | [EFAIL](https://efail.de/) | 2018 | OpenPGP/SMIME | Exfiltrate decrypted mails with HTML | No | - |
+| - | [Bleichenbacher's CAT](http://www.wisdom.weizmann.ac.il/~eyalro/project/cat/cat.pdf) | 2018 | TLS | Lack of Bleichenbacher attack countermeasures | No | - |
 
 FAQ
 ===
