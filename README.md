@@ -19,6 +19,7 @@ Have vulnerabilities been used in real world attacks?
 | - | [Rowhammer](https://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html) | 2015 | DRAM | Bitflips in RAM modules | No | - |
 | - | [Logjam](https://weakdh.org/) | 2015 | TLS | Weak diffie hellman parameters | No* | Speculation this may've been exploited by the NSA |
 | - | [Stagefright](https://en.wikipedia.org/wiki/Stagefright_(bug)) | 2015 | Stagefright/Android | Memory corruption in media parsers | No | - |
+| - | [eDellRoot](https://www.reddit.com/r/technology/comments/3twmfv/dell_ships_laptops_with_rogue_root_ca_exactly/) | 2015 | Dell laptops | Bundled software with shared root certificate | No | - |
 | <img src="logo/drown.svg" height="50"> | [DROWN](https://drownattack.com/) | 2016 | TLS/SSLv2 | Bleichenbacher attack using SSLv2 | No | - |
 | <img src="logo/badlock.svg" height="50"> | [Badlock](https://web.archive.org/web/20170608065927/http://badlock.org/) | 2016 | Samba/SMB | Various man in the middle attacks | No | - |
 | - | [ImageTragick](https://imagetragick.com/) | 2016 | Imagemagick | Remote code execution in image parsers | Yes | [Cloudflare reporting attacks](https://blog.cloudflare.com/inside-imagetragick-the-real-payloads-being-used-to-hack-websites-2/) |
