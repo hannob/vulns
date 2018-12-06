@@ -29,6 +29,7 @@ Have vulnerabilities been used in real world attacks?
 | <img src="logo/krack.png" height="50"> | [KRACK](https://www.krackattacks.com/) | 2017 | WPA2 | Nonce reuse in wireless encryption | No | - |
 | <img src="logo/duhk.svg" height="50"> | [DUHK](https://duhkattack.com/) | 2017 | FortiOS | Hardcoded key in FIPS-certified X9.31 RNG | No | - |
 | <img src="logo/robot.svg" height="50"> | [ROBOT](https://robotattack.org/) | 2017 | TLS | Lack of Bleichenbacher attack countermeasures | No | - |
+| - | [SambaCry](https://www.f5.com/labs/articles/threat-intelligence/sambacry-the-linux-sequel-to-wannacry) | 2017 | Samba | Remote code exection with root privileges by clients with write access to Samba share | Yes | [Kaspersky registering attacks against its honeypots](https://securelist.com/sambacry-is-coming/78674/) |
 | <img src="logo/meltdown.svg" height="50"> | [Meltdown](https://meltdownattack.com/) | 2018 | CPU/OS | Speculative execution sidechannel attacking root/user barrier | No | - |
 | <img src="logo/spectre.svg" height="50" width="63"> | [Spectre](https://spectreattack.com/) | 2018 | CPU/OS | Speculative execution sidechannel attacking program flow | No | - |
 | - | [Drupalgeddon 2](https://www.drupal.org/sa-core-2018-002) | 2018 | Drupal | Remote code execution | Yes | [ZDNet/Drupalgeddon2/DirtyCOW attacks](https://www.zdnet.com/article/hackers-use-drupalgeddon-2-and-dirty-cow-exploits-to-take-over-web-servers/) |
