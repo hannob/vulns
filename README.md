@@ -19,7 +19,9 @@ Have vulnerabilities been used in real world attacks?
 | - | [Superfish](https://en.wikipedia.org/wiki/Superfish) | 2015 | Lenovo laptops | Bundled software with shared root certificate | No | - |
 | - | [Rowhammer](https://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html) | 2015 | DRAM | Bitflips in RAM modules | No | - |
 | - | [Logjam](https://weakdh.org/) | 2015 | TLS | Weak diffie hellman parameters | No* | Speculation this may've been exploited by the NSA |
-| - | [Stagefright](https://en.wikipedia.org/wiki/Stagefright_(bug)) | 2015 | Stagefright/Android | Memory corruption in media parsers | No | - |
+| - | [Stagefright](https://en.wikipedia.org/wiki/Stagefright_(bug)) | 2015 | Stagefright/Android | Memory corruption in media parsers | No | [Adrian Ludwig's RSA Talk](https://youtu.be/TkjJxHqKV00?t=2064) |
+| - | [Master Key](https://nakedsecurity.sophos.com/2013/07/10/anatomy-of-a-security-hole-googles-android-master-key-debacle-explained/) | 2013 | Android | Cryptographic signatures not checked | Yes | [Adrian Ludwig's RSA Talk](https://youtu.be/TkjJxHqKV00?t=2064) |
+| - | [FakeID](https://www.blackhat.com/docs/us-14/materials/us-14-Forristal-Android-FakeID-Vulnerability-Walkthrough.pdf) | 2014 | Android | Lack of validate an application's certificate chain | Yes | [Adrian Ludwig's RSA Talk](https://youtu.be/TkjJxHqKV00?t=2064) |
 | <img src="logo/venom.png" width="72" height="50"> | [VENOM](https://venom.crowdstrike.com/) | 2015 | QEMU | VM escape | No | - |
 | <img src="logo/drown.svg" height="50"> | [DROWN](https://drownattack.com/) | 2016 | TLS/SSLv2 | Bleichenbacher attack using SSLv2 | No | - |
 | <img src="logo/badlock.svg" height="50"> | [Badlock](https://web.archive.org/web/20170608065927/http://badlock.org/) | 2016 | Samba/SMB | Various man in the middle attacks | No | - |
@@ -37,6 +39,8 @@ Have vulnerabilities been used in real world attacks?
 | - | [Drupalgeddon 2](https://www.drupal.org/sa-core-2018-002) | 2018 | Drupal | Remote code execution | Yes | [ZDNet/Drupalgeddon2/DirtyCOW attacks](https://www.zdnet.com/article/hackers-use-drupalgeddon-2-and-dirty-cow-exploits-to-take-over-web-servers/) |
 | <img src="logo/efail.svg" height="50"> | [EFAIL](https://efail.de/) | 2018 | OpenPGP/SMIME | Exfiltrate decrypted mails with HTML | No | - |
 | - | [Bleichenbacher's CAT](http://cat.eyalro.net/) | 2018 | TLS | Lack of Bleichenbacher attack countermeasures | No | - |
+
+
 
 FAQ
 ===
