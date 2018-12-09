@@ -20,6 +20,7 @@ Have vulnerabilities been used in real world attacks?
 | - | [Rowhammer](https://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html) | 2015 | DRAM | Bitflips in RAM modules | No | - |
 | - | [Logjam](https://weakdh.org/) | 2015 | TLS | Weak diffie hellman parameters | No* | Speculation this may've been exploited by the NSA |
 | - | [Stagefright](https://en.wikipedia.org/wiki/Stagefright_(bug)) | 2015 | Stagefright/Android | Memory corruption in media parsers | No | - |
+| <img src="logo/venom.png" height="50"> | [VENOM](https://venom.crowdstrike.com/) | 2015 | QEMU | VM escape | No | - |
 | <img src="logo/drown.svg" height="50"> | [DROWN](https://drownattack.com/) | 2016 | TLS/SSLv2 | Bleichenbacher attack using SSLv2 | No | - |
 | <img src="logo/badlock.svg" height="50"> | [Badlock](https://web.archive.org/web/20170608065927/http://badlock.org/) | 2016 | Samba/SMB | Various man in the middle attacks | No | - |
 | - | [ImageTragick](https://imagetragick.com/) | 2016 | Imagemagick | Remote code execution in image parsers | Yes | [Cloudflare reporting attacks](https://blog.cloudflare.com/inside-imagetragick-the-real-payloads-being-used-to-hack-websites-2/) |
@@ -29,7 +30,8 @@ Have vulnerabilities been used in real world attacks?
 | <img src="logo/krack.png" height="50"> | [KRACK](https://www.krackattacks.com/) | 2017 | WPA2 | Nonce reuse in wireless encryption | No | - |
 | <img src="logo/duhk.svg" height="50"> | [DUHK](https://duhkattack.com/) | 2017 | FortiOS | Hardcoded key in FIPS-certified X9.31 RNG | No | - |
 | <img src="logo/robot.svg" height="50"> | [ROBOT](https://robotattack.org/) | 2017 | TLS | Lack of Bleichenbacher attack countermeasures | No | - |
-| - | [SambaCry](https://www.f5.com/labs/articles/threat-intelligence/sambacry-the-linux-sequel-to-wannacry) | 2017 | Samba | Remote code exection with root privileges by clients with write access to Samba share | Yes | [Kaspersky registering attacks against its honeypots](https://securelist.com/sambacry-is-coming/78674/) |
+| - | [EternalBlue](https://en.wikipedia.org/wiki/EternalBlue) | 2017 | Windows/SMBv1 | Remote code exection via SMB | Yes | [WaPo/NSA use](https://www.washingtonpost.com/business/technology/nsa-officials-worried-about-the-day-its-potent-hacking-tool-would-get-loose-then-it-did/2017/05/16/50670b16-3978-11e7-a058-ddbb23c75d82_story.html?utm_term=.494c978e2f2e), [WannaCry](https://en.wikipedia.org/wiki/WannaCry_ransomware_attack), [NotPetya](https://en.wikipedia.org/wiki/Petya_(malware)) |
+| - | [SambaCry](https://www.samba.org/samba/security/CVE-2017-7494.html) | 2017 | Samba | RCE via Samba shares | Yes | [Kaspersky/Honeypot attacks](https://securelist.com/sambacry-is-coming/78674/) |
 | <img src="logo/meltdown.svg" height="50"> | [Meltdown](https://meltdownattack.com/) | 2018 | CPU/OS | Speculative execution sidechannel attacking root/user barrier | No | - |
 | <img src="logo/spectre.svg" height="50" width="63"> | [Spectre](https://spectreattack.com/) | 2018 | CPU/OS | Speculative execution sidechannel attacking program flow | No | - |
 | - | [Drupalgeddon 2](https://www.drupal.org/sa-core-2018-002) | 2018 | Drupal | Remote code execution | Yes | [ZDNet/Drupalgeddon2/DirtyCOW attacks](https://www.zdnet.com/article/hackers-use-drupalgeddon-2-and-dirty-cow-exploits-to-take-over-web-servers/) |
