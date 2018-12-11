@@ -84,4 +84,4 @@ Likely due to unclear licensing terms. All logos used here are under free licens
 Copyright
 =========
 
-The document and most logos are CC0 / public domain, with [some exceptions](LICENSE.md).
+The document and most logos are CC0 / public domain, with [some exceptions](LICENSE).
