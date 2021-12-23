@@ -4,6 +4,7 @@ Have vulnerabilities been used in real world attacks?
 
 | Logo | Name | Year | Target | Description | Real attack? | Notes/Sources |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
+| <img src="logo/slowloris.png" height="50" width="74"> | [Slowloris](https://web.archive.org/web/20090822001255/http://ha.ckers.org/slowloris/) | 2009 | HTTP servers | Denial of service by keeping connections open | Yes | [Abused by Spammers](https://web.archive.org/web/20170306152831/https://mackeeper.com/blog/post/339-spammergate-the-fall-of-an-empire) |
 | - | [BEAST](https://www.youtube.com/watch?v=-BjpkHCeqU0) | 2011 | TLS 1.0 | Attacking implicit IV in CBC mode encryption | No | - |
 | - | [CRIME](https://en.wikipedia.org/wiki/CRIME) | 2012 | TLS | TLS Compression leaks information | No | - |
 | <img src="logo/breach.png" height="50"> | BREACH | 2013 | TLS | HTTP compression inside TLS leaks information | No | - |
